@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- background -->
+  <rect width="512" height="512" rx="120" fill="#0d0d0d"/>
+
+  <!-- fork left tine -->
+  <rect x="148" y="80" width="28" height="140" rx="14" fill="#a3e635"/>
+  <!-- fork middle tine -->
+  <rect x="242" y="80" width="28" height="140" rx="14" fill="#a3e635"/>
+  <!-- fork right tine -->
+  <rect x="336" y="80" width="28" height="140" rx="14" fill="#a3e635"/>
+
+  <!-- fork neck joining tines -->
+  <path d="M148 200 Q148 260 256 270 Q364 260 364 200" fill="none" stroke="#a3e635" stroke-width="28" stroke-linecap="round"/>
+
+  <!-- fork handle -->
+  <rect x="242" y="265" width="28" height="167" rx="14" fill="#a3e635"/>
+
+  <!-- scan line across middle -->
+  <rect x="72" y="248" width="368" height="16" rx="8" fill="#ffffff" opacity="0.12"/>
+  <!-- scan line glow dots -->
+  <circle cx="72"  cy="256" r="10" fill="#a3e635" opacity="0.9"/>
+  <circle cx="440" cy="256" r="10" fill="#a3e635" opacity="0.9"/>
+</svg>
